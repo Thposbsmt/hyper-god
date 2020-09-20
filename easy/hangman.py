@@ -7,7 +7,6 @@ if(input("Type \"play\" to play the game, \"exit\" to quit: ") == "play"):
 	life = 7
 	tries_letters = []
 	word = random.choice(words)
-	print(word)
 	hide_word = "-" * len(word)
 	print(hide_word)
 
